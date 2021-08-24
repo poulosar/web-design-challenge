@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-        <title>Latitude Study</title>
+        <title>Latitude Study - Humidity</title>
     </head>
     <body>
     <!-- This is running bootstrap v4.1.3-->
@@ -52,42 +52,15 @@
                   </ul>
                 </div>
               </nav>
-            <div class="row">
-              <div class="col-md-7">
-                <h1 class="display-5">Summary of "Latitude vs X"</h1>
-                <a href="temperature.html"><img src="visualizations/Fig1.png" class="rounded float-left img-fluid" width="50%" alt="...">
-                </a>
-                <p1>This project was done to study the affects that Latitude has on the weather. Data was pulled
-                from openweather API using a random set of coordinates generated based on a python script. With this data
-                we were then able to plot it using the Matplotlib library in python.
-                <br>
-                <br>
-                This was created with the intent of analyzing the data to find the perfect weather conditions for a vacation.
-                The factors measuered was the latitude as it relates to temperature, cloudiness, windspeed and humidity.
-                </p1>
-                
-              </div>
-              <div class="col-md-5">
-                <h1>Visualizations</h1>
-                <div class="row">
-                  <div class="col-3 col-md-6">
-                    <a href="temperature.html"><img src="visualizations/Fig1.png" alt="temperature"  class="img-fluid">
-                    </a>
-                  </div>
-                  <div class="col-3 col-md-6">
-                    <a href="humidity.html"><img src="visualizations/Fig2.png" alt="humidity"  class="img-fluid">
-                    </a>
-                  </div>
-                  <div class="col-3 col-md-6">
-                    <a href="cloudiness.html"><img src="visualizations/Fig3.png" alt="cloudiness"  class="img-fluid">
-                    </a>
-                  </div>
-                  <div class="col-3 col-md-6">
-                    <a href="wind_speed.html"><img src="visualizations/Fig4.png" alt="wind_speed"  class="img-fluid">
-                    </a>
-                    </div>
-              </div>
-            </div>            
-        </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <h1 class="display-5">Latitude vs. Humidity</h1>
+                  <img src="visualizations/Fig2.png" class="rounded float-left img-fluid" width="50%" alt="...">
+                  <p1>If you look at around the equator, you can see there are few data points lower than 40% humidity in relation to other latitudes. The closer you are to the equator the higher chance you have of there being high humidity. Good ranges are in 20-40 degrees as long as you enjoy lower humidity.
+                  <br>
+                  <br>
+                  </p1>
+                  
+                </div>
     </body>
 </html>
